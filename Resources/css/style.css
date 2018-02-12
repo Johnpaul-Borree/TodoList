@@ -1,0 +1,101 @@
+body,header,.wrapper{
+  margin: 0;
+  padding: 0;
+}
+body{background-color: #dfe2db;}
+header{
+  background-color: #191919;
+  border-bottom: 5px solid #ffffff;
+
+}
+header h1{
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+header h1 a{ text-decoration: none;color: #ffffff}
+.wrapper{
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 14px;
+  margin:auto;
+  width: 90%;
+  height: 100vh;
+  border: 2px  solid #0af41a;
+  border-top-color: #fff;
+  border-radius: 2px;
+}
+.wrapper > p{
+  color:#191919;
+  padding-left: 40px;
+  margin-left: 5px;
+}
+.wrapper input[type=text]{
+  padding: 8px 15px;
+  box-sizing: border-box;
+  border: 1px sold #ccc;
+  border-radius: 5px;
+  margin-left: 8vw;
+  width: 80%;
+  color: #525865;
+  box-shadow: inset 1px 2px 8px rgba(0,0,0,0.07);
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5;
+  outline: none;
+  -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition:  .18 ease-out;
+  transition: .18 ease-out;
+}
+.wrapper input[type=text]:hover{
+  box-shadow: inset 1px 2px 8px rgba(0,0,0,0.02);
+}
+.wrapper input[type=text]:focus{
+  color: #4b515d;
+  border: 1px solid #b8b6b6;
+  box-shadow: inset 1px 2px 4px rgba(0,0,0,0.01),0px 0px 8px rgba(0,0,0,0.2);
+}
+.wrapper input[type=submit]{
+  position: absolute;
+  top: 38%;
+  right: 20%;
+  background-color: #4caf50;
+  border: 0 none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.wrapper input[type=submit]:focus{
+  outline: 0;
+}
+.todo{
+  position: absolute;
+  top: 50%;
+  left:10%;
+  width: 70%;
+
+}
+.todo ul{
+  width:100%;
+  padding: 5px;
+}
+#uncompleted li{
+  font-size: 14px;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #ffd700;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#uncompleted li:last-of-type{  margin-bottom: 0;}
